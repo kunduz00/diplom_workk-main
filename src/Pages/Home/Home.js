@@ -24,27 +24,36 @@ function Home() {
 
     <section className="hover_card">
       <div className="container">
+
+        <h2 className="top_home">Top categories</h2>
+
         <div className="hover_cards flex">
 
         <div class="hover-effect-btn">
           <img className="vol_img" src={hoverImg1} alt="" />
           <h3 class="title">Volleyball</h3>
           <div class="overlay"></div>
-        <div class="button"><a href="#">shop</a></div>
+          <div class="button">
+              <Link to="/categories/volleyball" className="link_button">shop</Link>
+            </div>
         </div>
 
         <div class="hover-effect-btn">
           <img className="shop_img" src={golfImg} alt="" />
           <h3 class="title">Golf </h3>
           <div class="overlay"></div>
-        <div class="button"><a href="#">shop</a></div>
+        <div class="button">
+              <Link to="/categories/golf" className="link_button">shop</Link>
+            </div>
         </div>
 
         <div class="hover-effect-btn">
           <img className="shop_img" src={soccerImg} alt="" />
           <h3 class="title">Soccer </h3>
           <div class="overlay"></div>
-        <div class="button"><a href="#">shop</a></div>
+            <div class="button">
+              <Link to="/categories/soccer" className="link_button">shop</Link>
+            </div>
         </div>
 
         </div>
@@ -61,6 +70,8 @@ function Home() {
 
       </div>
     </section>
+
+   
       
     </>
   );

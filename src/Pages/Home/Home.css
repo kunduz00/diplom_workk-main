@@ -59,7 +59,22 @@
 	padding:0 4% 2%;
 }
 .home_btn{
-	
+	padding: 6px 24px;
+	background: white;
+	color: black;
+	border-radius: 20px;
+	font-size: 27px;
+	font-family: "Josefin Sans", sans-serif;
+	margin	:0 4% 2%;
+}
+
+.top_home{
+	font-size: 70px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+	margin-bottom: 50px;
 }
 
 /*home*/
