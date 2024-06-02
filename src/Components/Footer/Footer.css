@@ -1,0 +1,79 @@
+footer {
+    background: #008ccf;
+    padding: 60px 0 40px;
+  }
+
+  .footer_card_tit{
+    font-size: 63px;
+      color: #ffffff;
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 400;
+      margin-bottom: 5%;
+      text-align: left;
+      border-right: 3px solid rgb(195, 191, 191);
+      padding: 0 20px;
+  }
+  .footer_nav .Menu .footer_navs li{
+    font-size: 18px;
+    border: none;
+    transition: 0.3s;
+  }
+  .footer_nav .Menu .footer_navs li:hover{
+  color: #757575;
+  }
+  .footer_navs{
+    display: flex;
+    gap: 10px;
+    margin:24px 28px ;
+  }
+  .footer_share_card{
+    border-top:3px solid rgb(195, 195, 195) ;
+    padding: 5% 0;
+  }
+  .footer_shares{
+    padding: 5% 0;
+  }
+  .footer_share_card span{
+    transition: 0.3s;
+    margin-top: 20px;
+    color: white;
+  }
+  .footer_phon span:hover{
+    color: rgb(20, 20, 20);
+  }
+  .link_card{
+    width: 16%;
+    height: 5%; 
+    color: #b388dd;
+    transition: 0.3s;
+  }
+  .link_card2{
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+  .link_card2:hover,
+  .link_card:hover{
+  color: rgb(0, 89, 255);
+  }
+  .Footer_menu{
+    font-size: 23px;
+    transition: 0.3s;
+    color: white;
+  }
+  .link_card_gm{
+    width: 35px;
+    height: 24px;
+    transition: 0.3s;
+  }
+  .footer_cards{
+    justify-content: space-around;
+  }
+  .footer_navs li:hover{
+   color: #757575;
+  }
+  .footer_navs li{
+    transition: 0.3s;
+    font-weight: 500;
+  }

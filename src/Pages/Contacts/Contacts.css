@@ -1,0 +1,54 @@
+
+.contact_phon{
+    color: black;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 1%;
+}
+p span{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.Whatsapp{
+    color: rgb(0, 21, 255);
+    height: 3%;
+    width: 3%;
+}
+.contact_phon_tit{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1300px) {
+	.container{
+		max-width: 960px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+    .map_c{
+        width: 383px;
+    }
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
+    .map_c{
+        width: 293px;
+    }
+}

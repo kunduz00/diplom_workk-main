@@ -1,0 +1,53 @@
+.product_tit{
+    font-weight: 700;
+    color: rgb(0, 0, 0) !important;
+}
+.product_img{
+    width: 400px;
+}
+
+.product_price,
+.product_description{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.Product{
+    display: flex;
+    gap: 40px;
+}
+.product_right{
+    align-self: center;
+}
+.product_tit{
+    font-size: 50px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+}
+.product_price{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #242323;
+}
+.product_price_all{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: #4c4c4c;
+    margin: 3% 0;
+}
+
+@media screen and (max-width: 1300px) {
+	.container{
+		max-width: 960px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+    .Product{
+        flex-wrap: wrap;
+    }
+}

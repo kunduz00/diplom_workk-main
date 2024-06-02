@@ -1,0 +1,26 @@
+.AddToCart button {
+  padding: 2px 10px;
+  margin-right: 5px;
+  background-color: #339;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: inherit;
+  transition: all 100ms linear;
+  margin: 4% 0;
+}
+.AddToCart button:hover {
+  background-color: rgb(70, 50, 126);
+}
+.ProductList span{
+  font-family: "Poetsen One", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #616161;
+}
+.ProductList .text{
+  font-family: "Poetsen One", sans-serif;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #434343;
+}
