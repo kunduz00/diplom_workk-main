@@ -5,6 +5,7 @@ import hoverImg1 from "../../img/voll.png"
 import { Link } from "react-router-dom";
 
 
+
 function Home() {
   
 
@@ -71,12 +72,29 @@ function Home() {
       </div>
     </section>
 
-    <section className="golf">
+    <section className="arial">
       <div className="container">
-       <h2 className="golf_tit">New Sportstyle Arrivals</h2>
+       <h2 className="arial_tit">New Sportstyle Arrivals</h2>
 
-       <div className="arial_cards">
-        
+       <div className="arial_cards flex">
+        {/* <div className="arial_card">
+          <img className="arial_img" src={hoverImg1} alt="" />
+          <h3 className="arial_card_tit">Shop GEL-KAYANO® 14</h3>
+          <Link to="/categories/tennis	" className="home_btn">shop</Link>  
+        </div> */}
+
+          <div class="mask mask-one mask-one-frame">
+            <img src={hoverImg1} className="mask-img" alt=""/>
+          </div>
+          <div class="mask mask-two mask-two-frame">
+            <img src={hoverImg1} className="mask-img" alt=""/>
+          </div>
+          <div class="mask mask-three mask-three-frame">
+            <img src={hoverImg1} className="mask-img" alt=""/>
+          </div>
+          <div class="mask mask-four mask-four-frame">
+            <img src={hoverImg1} className="mask-img" alt=""/>
+          </div>
        </div>
 
        
