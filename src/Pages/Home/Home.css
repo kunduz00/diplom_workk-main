@@ -181,13 +181,15 @@
     padding: var(--maskStrokeThickness, 3px);
     clip-path: var(--uiMaskClipPath);
     background-color: var(--maskStrokeColor, currentColor);
-    --maskStrokeColor: #ab7445; /* Цвет рамки */
+    --maskStrokeColor: #0a0a77; /* Цвет рамки */
     --maskStrokeThickness: 5px; /* Ширина рамки */ 
 }
 .mask-img{
     max-width: 100%;
     display: block;
     clip-path: var(--uiMaskClipPath);
+	width: 300px;
+	height: 250px;
 }
 .mask, 
 .mask-img{
