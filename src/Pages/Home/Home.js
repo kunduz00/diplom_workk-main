@@ -71,7 +71,17 @@ function Home() {
       </div>
     </section>
 
-   
+    <section className="golf">
+      <div className="container">
+       <h2 className="golf_tit">New Sportstyle Arrivals</h2>
+
+       <div className="arial_cards">
+        
+       </div>
+
+       
+      </div>
+    </section>
       
     </>
   );
