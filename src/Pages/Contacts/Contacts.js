@@ -1,9 +1,7 @@
 import React from 'react';
 import "./Contacts.css";
-import { FaWhatsapp } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { CgMail } from "react-icons/cg";
 
 const Contacts = () => {
   return (
@@ -17,8 +15,8 @@ const Contacts = () => {
       <div className="container">
 
         <p className="contact_phon_tit">Мы в соц.сетях</p>
-        <p className="contact_phon"><FaTelegramPlane  className='Whatsapp'/> <span>+996 708 985 426</span>   </p>
-        <p className="contact_phon"><FaInstagram className='Whatsapp'/> <span>._kuzua.06</span> </p>
+        <p className="contact_phon"><FaTelegramPlane  className='Whatsapp'/> <span>+996 707 038 885</span>   </p>
+        <p className="contact_phon"><FaInstagram className='Whatsapp'/> <span>k_mir1anovna</span> </p>
         
       </div>
     </section>

@@ -8,6 +8,7 @@ function Delivery() {
       <div className="container">
 
         <div className="delivery_mains flex">
+          
 
 
           <div className="delivery_right">
@@ -34,6 +35,7 @@ function Delivery() {
 
     <section>
       <div className="container">
+        
         
       </div>
     </section>

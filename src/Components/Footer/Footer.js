@@ -44,13 +44,13 @@ const Footer = () => {
               <div className="footer_share">
                 <div className="footer_shares flex">
 
-                  <Link to="https://t.me/+996505505400">
+                  <Link to="https://t.me/+996707038885">
                   <FaTelegramPlane className="link_card2" />
                   </Link>
 
                   <Link to="https://wa.me/qr/5CCLEVSIBJ43F1"><FaWhatsapp className="link_card2"/></Link>
 
-                  <Link to="https://www.instagram.com/gprva__?igsh=MW9ldWVnZXhvbGR1YQ==">
+                  <Link to="https://www.instagram.com/k_mir1anovna?igsh=ZGUzMzM3NWJiOQ==">
                   <FaInstagram className="link_card2"/>
                   </Link>
                   
